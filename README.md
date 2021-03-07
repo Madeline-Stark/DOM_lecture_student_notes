@@ -188,19 +188,6 @@ container.removeChild(containerPTag) //removes the child p tag
 
 ---
 
-### Activity
-- With the person sitting next to you, navigate to your favorite website (NewYorkTimes or Twitter are good examples):
-  - Select elements and save them to JavaScript variables
-  - Remove at least 2 elements from the page
-  - Modify elements (e.g., replace image url, change text, change CSS)
-  - Create new elements and add them to the page
-  - Change all instances of one word on the page
-  - Replace all images on only a certain portion of the DOM
-  - Change every other header
-  - Bonus (Hard): replace all elements of one tag to another (e.g., `p` to `h1`)
-
----
-
 ### Adding Some Dank Memes to the Page
 
 - If you look at the `index.html`, there are **two** JavaScript files being loaded: `index.js` and `dankMemes.js`. We can use JavaScript to create image tags, set the urls based on the array of strings found in `dankMemes.js` and add those `<img></img>` tags to the page.
